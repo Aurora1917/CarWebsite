@@ -1,0 +1,348 @@
+html{
+    
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:antiquewhite;
+}
+*{
+   
+    font-family: 'Poppins', sans-serif;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize ;
+    transition: 0.2s ease;
+
+
+}
+
+section{
+    padding: 3.5rem 7% 7%;
+}
+
+button{
+    border-radius: 3rem;
+    background-color:  #2c66af;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1rem;
+}
+
+button:hover{
+    box-shadow:rgb(45, 45, 249);
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-style: solid;
+}
+
+.header a{
+    margin: 0 1rem; 
+    font-size: 1.6rem;
+    color: #575757;
+    border-bottom: 0.1rem solid transparent;
+   
+
+}
+
+header .logo img{
+    height: 3rem;
+    margin-top: 0.3rem;
+    
+}
+
+.Home{
+    background-image: url(../Deneme/images/0_mask-group-342_3f31bba8.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: center;
+    margin-top: -8rem;
+   
+
+}
+
+.Home .content{
+    max-width: 60rem;
+    margin-top: 22rem;
+}
+
+
+.Home .content h1{
+    max-width: 60rem;
+    font-size: 2.4rem;
+    margin-top: 16rem;
+    color: aliceblue;
+    margin-left: 2rem;
+
+}
+
+.header a:hover{
+   border-color: #2c66af;
+   padding-bottom: 0.1rem;
+   
+
+}
+
+.OverviwIMG{
+    background-image: url(../Deneme/images/0_mask-group-222_61389784.jpg);
+    display:flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    margin-top: -4rem;
+    
+}
+.Overview{
+    background-color: rgb(255, 255, 255);
+    min-height:10vh;
+   
+}
+
+
+.Overview h1{
+    align-items: center;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    color: #2c66af;
+    font-weight: 500;
+   
+}
+.Overview p{
+
+    justify-content: center;
+    font-weight: 300;
+    color: #575757;
+    position: relative;
+}
+
+.Cars h1{
+    align-items: center;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    color: #2c66af;
+    font-weight: 500;
+
+}
+
+.Cars .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 5rem;
+}
+
+.Cars{
+    background-color: #fff;
+}
+
+.Cars .box-container img{
+    background-position: center;
+    object-fit:fill;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.Cars .box-container .box{
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3rem;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem;
+    border-style: solid;
+    border-color: #575757;
+}
+
+.Cars h2{
+    align-items: center;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.Cars h3{
+    align-items: center;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    font-size: 2rem;
+    color: #2c66af;
+    font-weight: 700;
+}
+
+.explore{
+    background-color: #fff;
+    justify-content: start;
+    margin-top: -3rem;
+    width: 100%;
+}
+
+.explore .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,0.5fr));
+    gap: 2rem;
+   
+
+}
+
+.explore .box-container img{
+    background-position: center;
+    object-fit:fill;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.explore .box-container .box{
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3rem;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.explore .box-container h3{
+    color: #2c66af;
+    font-size: 1.5rem;
+    justify-content: start;
+}
+
+.explore h3{
+    color: #2c66af;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+button:hover{
+    background-color: #5b80ad;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(229, 227, 227);
+    height: 20rem;
+}
+
+.footer h3{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+
+.footer p{
+    font-weight: lighter;
+    padding-bottom: 1.2rem;
+}
+
+.footer input{
+    width: 25rem;
+    height: 2rem;
+    border: #575757;
+    border-style: solid;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.footer .btn{
+    height: 2rem;
+    
+}
+
+.footer .mailo{
+    padding-left: 1rem;
+}
+
+.Home .content .arrows{
+   
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+   
+   
+    
+}
+
+
+
+
+.Home .content #left-arrow{
+    
+   
+   
+    width: 1rem;
+    height: 1rem;
+  
+    border-style: solid;
+    
+   
+
+}
+
+
+.Home .content #right-arrow{
+    
+   
+   
+    border-style: solid;
+    width: 1rem;
+    height: 1rem;
+    
+    
+}
